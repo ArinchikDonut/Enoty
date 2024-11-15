@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    opacity: 0.8;
+    border: 6px dashed rgb(35, 25, 3);
+    border-radius: 10%;
+    padding-top: 230px;
+    text-align: center;
+    font-size: 50px;
+    position:relative;
+    height: 375px;
+    color: white;
+    background-image: url(https://img.freepik.com/free-photo/raccoon_649448-3877.jpg?t=st=1731688349~exp=1731691949~hmac=b2d854578f51003793bd1197b92ebaf8bc1a24e95c0dc5bf289a401482662033&w=900) ;
+}
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+p, a{
+    font-style: italic;
+    font-size: 36px;
+}
+ footer p, footer a{
+    border-radius: 10%;
+    font-style: normal;
+    color: white;
+    background-image: url(https://img.freepik.com/free-photo/dry-leaves-autumn-season_23-2147837015.jpg?t=st=1731689638~exp=1731693238~hmac=235c79a2e35a1ac58fbea8860ffcc824c1b30001b8236e2cf6b92ae67ad046b9&w=900);
+}
+.tekhpodderzhka{
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+    width: 90px;
+    opacity: 1;
+    z-index: 2;
+}
+a:hover{
+   color: lightblue;
+}
+.tekhpodderzhka:hover{
+    width: 100px;
+    transition: all 0.5s linear;
+}
